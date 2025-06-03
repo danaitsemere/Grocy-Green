@@ -86,7 +86,7 @@ a {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     color: #4CAF50;
-    font-size: 1em;
+   
 }
 
 .title-nav .login-btn {
@@ -97,7 +97,7 @@ a {
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
-    font-size: 1em;
+   
 }
 
 
@@ -126,7 +126,7 @@ a {
 
 .sub-title-nav .categories-btn i {
     margin-right: 10px;
-    font-size: 1.2em;
+ 
 }
 
 .sub-title-nav .nav-links {
