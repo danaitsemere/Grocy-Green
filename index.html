@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organic Market</title>
+    <title>Greens Kiosk</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/03e81f5a95.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header">
         <div class="intro">
-            <p>Happy shopping with guaranteed quality</p>
+            <h1 id="title"> Welcome to Greens Kiosk</h1>
             <div class="header-icons">
                 <a href="#" class="wishlist"><i class="far fa-heart"></i> Wishlist (0)</a>
                 <a href="#" class="cart"><i class="fas fa-shopping-cart"></i> CART</a>
             </div>
         </div>
     </header>
-
-  <nav class="main-nav">
-        <div class="container">
-            <div class="logo">
-              
-            </div> 
+    <nav class="title-nav">
+        <div class="grocy">
+            <div id="logo">
+                <img id="logo" alt="">
+            </div>
+            <h1>Grocy <br> Green</h1>
             <div class="search-bar">
                 <input type="text" placeholder="Search Product">
                 <button><i class="fas fa-search"></i></button>
@@ -31,8 +33,81 @@
         </div>
     </nav>
 
-    
+    <div class="sub-title-nav">
+
+        <div class="grocy">
+            <div class="categories-btn">
+                <i class="fas fa-bars"></i> CATEGORIES
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="main-section">
+        <div class="grocy">
+            <div class="main-content">
+                <h1>Greens Kiosk <br> Deliveres Fresh to You</h1>
+                <p>We sell fruits and vegetables</p>
+                <button class="explore-btn">Explore <i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="main-image">
+            </div>
+        </div>
+    </main>
+
+    <section class="product-categories">
+        <h3>Fruits</h3>
+        <div class="grocy">
+            <div class="fruit-images">
+                <img src="images/mangoes-removebg-preview.png" alt="">
+
+                <img src="images/banana-removebg-preview.png" alt="">
+
+
+                <img src="images/watermelons-removebg-preview.png" alt=""> 
+            </div>
+            <div>
+                <ul id="fruList">
+
+                    <li>Mangoes</li>
+
+                    <li>Bananas</li>
+
+                    <li>Water Melons</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="product-categories">
+        <h3>Fruits</h3>
+        <div class="grocy">
+            <div class="vegImages">
+                <img src="images/onions-removebg-preview.png" alt="Vegetables"> 
+                <img src="images/tomatoes-removebg-preview.png" alt="Fruits"> 
+                <img src="images/kales-removebg-preview.png" alt="Organic"> 
+            </div>
+            <div class="vegList">
+                <ul id="vegList">
+
+                    <li>Onions</li>
+
+                    <li>Tomatoes</li>
+
+                    <li>Kales</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <script src="index.js"></script>
 </body>
+
 </html>
